@@ -16,6 +16,21 @@
 
 .element {
   background-color: honeydew;
+  border: 1px dashed pink;
+  border-radius: 16px;
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: pink;
+
+  padding: 64px;
+  /* width: 30%; */
+  /* height: 30%; */
+}
+
+.element:hover {
+  background-color: rgba(0, 255, 102, 100%);
   border: 1px solid hotpink;
   border-radius: 16px;
 
@@ -27,4 +42,6 @@
   padding: 64px;
   /* width: 30%; */
   /* height: 30%; */
+
+  cursor: pointer;
 }
