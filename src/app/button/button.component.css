@@ -1,0 +1,7 @@
+button {
+  border: 1px dashed hotpink;
+  border-radius: 64px;
+  width: 256px;
+  padding: 32px;
+  margin: 32px;
+}

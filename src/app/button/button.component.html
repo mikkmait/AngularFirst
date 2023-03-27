@@ -1,0 +1,9 @@
+<button
+  #hoverName
+  (mouseenter)="onMouseEnter(hoverName)"
+  (mouseout)="onMouseOut(hoverName)"
+  [ngStyle]="{ 'background-color': color,
+    'border': colorBorder }"
+  >  
+  {{name}}
+</button>
